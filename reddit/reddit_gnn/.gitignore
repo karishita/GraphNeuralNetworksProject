@@ -1,0 +1,63 @@
+# ── Raw dataset (PyG downloads .pt + Reddit/ folder) ──────────────────────
+data_store/
+
+# ── Preprocessed tensors (.pt / .npz / .npy / .pkl) ───────────────────────
+*.pt
+*.npz
+*.npy
+*.pkl
+
+# ── Model checkpoints ─────────────────────────────────────────────────────
+results/checkpoints/
+
+# ── Embeddings ────────────────────────────────────────────────────────────
+results/embeddings/
+
+# ── Training logs ─────────────────────────────────────────────────────────
+results/logs/
+
+# ── Catch-all results root (CSVs / plots are tracked; binaries above are not)
+# Keep results/ itself tracked so plots/CSVs can be committed.
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment
+.env
+*.egg
+venv/
+env/
+
+# WandB
+wandb/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Temporary
+*.tmp
+*.bak
+_docx_content.txt
+
+# Others
+implementation_plan.md.resolved
+task.md.resolved
+
+#
+
+
+#
